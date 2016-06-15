@@ -21,7 +21,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="Team A" />
+                android:text="Home Team"
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -29,7 +30,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="0" />
+                android:text="0"
+                android:textSize="@dimen/abc_text_size_display_4_material"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
 
             <Button
                 android:id="@id/team_a_score"
@@ -37,22 +40,35 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addThreeForTeamA"
-                android:text="+3 Points" />
+                android:text="+3 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addTwoForTeamA"
-                android:text="+2 Points" />
+                android:text="+2 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addOneForTeamA"
-                android:text="Free throw" />
+                android:text="Free throw"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
         </LinearLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="375dp"
+            android:background="@android:color/darker_gray"
+
+            android:layout_marginTop="8dp" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -66,7 +82,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="Team B" />
+                android:text="Away Team"
+                android:textSize="32dp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -74,7 +91,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="0" />
+                android:text="0"
+                android:textSize="@dimen/abc_text_size_display_4_material"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
 
             <Button
                 android:id="@id/team_b_score"
@@ -82,21 +101,27 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addThreeForTeamB"
-                android:text="+3 Points" />
+                android:text="+3 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addTwoForTeamB"
-                android:text="+2 Points" />
+                android:text="+2 Points"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:onClick="addOneForTeamB"
-                android:text="Free throw" />
+                android:text="Free throw"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
         </LinearLayout>
     </LinearLayout>
 
